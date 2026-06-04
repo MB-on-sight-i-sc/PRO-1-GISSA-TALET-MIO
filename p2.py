@@ -1,11 +1,3 @@
-'''
-vanner_lista.py: Program för att hantera en lista med vänner
-
-__author__  = "Anne Onym"
-__version__ = "1.0.0"
-__email__   = "namn.efternamn@elev.ga.ntig.se"
-'''
-
 import os
 
 def rensa_skarm():
@@ -79,7 +71,7 @@ def ta_bort_van(lista):
     except ValueError:
         print("Du måste skriva ett nummer.")
 
-vanner = ["Anna", "Erik", "Sara", "Mohammed"]
+vanner = ["vilgot", "erik", "vilgot", "linus"]
 
 kor_program = True
 
