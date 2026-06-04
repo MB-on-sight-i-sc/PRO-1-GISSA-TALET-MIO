@@ -9,7 +9,7 @@ def visa_bilar(lista):
     for i, bil in enumerate(lista, 1):
         print(f"{i}. {bil['märke']} {bil['modell']} ({bil['år']}) - {bil['pris']:,} kr, Färg: {bil['färg']}")
 
-def lagg_till_bil():
+def lagg_till_bil():4
     ny = {
         "märke": input("Märke: "),
         "modell": input("Modell: "),
